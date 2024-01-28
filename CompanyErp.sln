@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyErp", "CompanyErp\CompanyErp.csproj", "{C049A905-85FA-456D-BA08-D8E8C2756EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9DD0566-C65B-4B1C-B578-DBC70974FCD2}
+	EndGlobalSection
+EndGlobal
