@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyErp", "CompanyErp\CompanyErp.csproj", "{C049A905-85FA-456D-BA08-D8E8C2756EEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{C430D8B1-E9B2-4791-8F19-D6A791243984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C049A905-85FA-456D-BA08-D8E8C2756EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C430D8B1-E9B2-4791-8F19-D6A791243984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C430D8B1-E9B2-4791-8F19-D6A791243984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C430D8B1-E9B2-4791-8F19-D6A791243984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C430D8B1-E9B2-4791-8F19-D6A791243984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
