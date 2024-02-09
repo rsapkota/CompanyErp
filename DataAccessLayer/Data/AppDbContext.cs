@@ -13,6 +13,12 @@ namespace DataAccessLayer.Data
     public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Visitor> Visitors { get; set; }
+        public DbSet<Unit> Units { get; set; }
+        public DbSet<IncomeHead> IncomeHeads {get;set;}
+        public DbSet<ExpenseHead> ExpenseHeads { get;set;}
+        public DbSet<AddWork> AddWorks { get; set;}
+        public DbSet<PaymentMethod> PaymentMethods { get; set;}
+        public DbSet<AddWorkProcess> AddWorkProcesses { get; set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connectionString = "Integrated Security=SSPI;Initial Catalog=ERP;Data Source=.\\SqlExpress;TrustServerCertificate=True";

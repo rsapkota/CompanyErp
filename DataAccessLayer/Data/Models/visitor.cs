@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Data.Models
 {
-    public class Visitor
+    public class Visitor : BaseModel
     {
         [Key]
         public int Id { get; set; }
