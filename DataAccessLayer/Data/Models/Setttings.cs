@@ -9,7 +9,7 @@ namespace DataAccessLayer.Data.Models
 {
     public class BaseModel
     {
-        public DateOnly? FiscalYear { get; set; }
+        public DateTime? FiscalYear { get; set; }
         public DateTime? DateAdded { get; set; }
         public DateTime? ModifiedDate { get; set; }
         public bool? IsDeleted { get; set; }

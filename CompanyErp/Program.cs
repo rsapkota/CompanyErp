@@ -73,6 +73,14 @@ builder.Services.AddAuthentication(options =>
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ByYM000OLlMQG6VVVp1OH7Xzyr7gHuw1qvUC5dcGt3SNM"))
                 };
             });
+//builder.Services.AddControllers().AddJsonOptions(o =>
+//{
+//    o.JsonSerializerOptions.PropertyNamingPolicy = null;
+//    o.JsonSerializerOptions.DictionaryKeyPolicy = null;
+//});
+
+builder.Services.AddControllers().AddNewtonsoftJson();
+
 
 var app = builder.Build();
 

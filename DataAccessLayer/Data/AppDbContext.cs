@@ -19,6 +19,12 @@ namespace DataAccessLayer.Data
         public DbSet<AddWork> AddWorks { get; set;}
         public DbSet<PaymentMethod> PaymentMethods { get; set;}
         public DbSet<AddWorkProcess> AddWorkProcesses { get; set;}
+        public DbSet<Complain> Complains { get; set;}
+        public DbSet<PostalReceive> PostalReceives { get; set;}
+        public DbSet<PostalDispatch> PostalDispatches { get; set;}
+        public DbSet<PhoneCallLog> PhoneCallLogs { get; set;}
+        public DbSet<Supplier> Suppliers { get; set;}
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connectionString = "Integrated Security=SSPI;Initial Catalog=ERP;Data Source=.\\SqlExpress;TrustServerCertificate=True";
