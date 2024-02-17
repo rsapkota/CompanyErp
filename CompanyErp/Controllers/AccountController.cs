@@ -24,7 +24,7 @@ namespace CompanyErp.Controllers
             _appDbContext = appDbContext;   
         }
 
-        [HttpPost("/Login")]
+        [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginModel data)
         {
             var user = await _userManager.FindByEmailAsync(data.Email);
@@ -63,7 +63,7 @@ namespace CompanyErp.Controllers
         }
 
         //[Authorize]
-        [HttpPost("/Register")]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] RegistrationModel data)
         {
             var user = await _userManager.FindByEmailAsync(data.Email);
@@ -84,7 +84,7 @@ namespace CompanyErp.Controllers
         }
 
         [Authorize]
-        [HttpPost("/Profile")]
+        [HttpPost("Profile")]
         public async Task<IActionResult> UpateProfile([FromBody] ProfileDTO data)
         {
             var userEmailFromToken = HttpContext.User.Identity?.Name;
@@ -114,7 +114,7 @@ namespace CompanyErp.Controllers
         }
 
         [Authorize]
-        [HttpPost("/ProfilePicture")]
+        [HttpPost("ProfilePicture")]
         public async Task<IActionResult> UpateProfilePicture([FromBody] ProfilePicDTO data)
         {
             var userEmailFromToken = HttpContext.User.Identity?.Name;
